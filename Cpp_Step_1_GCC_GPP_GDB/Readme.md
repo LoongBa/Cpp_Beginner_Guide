@@ -78,7 +78,7 @@
 
 在 `Windows 10/11` 中，按下 `Win + x` 键，在弹出菜单里选中：`终端`（不要选 `终端管理员`）或 `Windows Powershell`
 
-<img title="" src="./assets/2024-03-19-18-21-55-image.png" alt="" width="144">    <img src="./assets/2024-03-23-22-09-51-image.png" title="" alt="" width="253"> 
+<img title="" src="./images/2024-03-19-18-21-55-image.png" alt="" width="144">    <img src="./images/2024-03-23-22-09-51-image.png" title="" alt="" width="253"> 
 
 左边是 Win11， 右边是 Win10。
 
@@ -178,7 +178,7 @@ gdb -v
 
 安装正确的情况下，在每个命令输出中能看到提示和版本号，如图中绿色部分：
 
-<img title="" src="./assets/2024-03-19-18-56-36-image.png" alt="" width="1078">
+<img title="" src="./images/2024-03-19-18-56-36-image.png" alt="" width="1078">
 
 ---
 
@@ -230,7 +230,7 @@ scoop update git gcc gdb
 
 看到下面的实时流量统计图，说明已经起作用了：
 
-<img title="" src="./assets/2024-03-19-21-09-22-image.png" alt="" width="493">
+<img title="" src="./images/2024-03-19-21-09-22-image.png" alt="" width="493">
 
 很多文章中也会推荐其它类似 `FastGithub` 的工具，如 `Steam++` 等，相比之下 `FastGithub` 属于<mark> 最简单、功能单一 </mark>的一个。
 ——推测因为与 `Steam++` 等利益相关（有广告），`FastGithub` 原作者删除了原来在 `Github` 上的项目，
