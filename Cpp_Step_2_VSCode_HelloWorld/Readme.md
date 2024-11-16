@@ -1,20 +1,12 @@
-# 【C/C++ 新手避坑指南】之二
+# 《极简安装配置 VSCode：中文、C/C++扩展、中文乱码》
 
-龙爸写给**初学 C/C++** 的朋友们的**新手避坑指南**，扫平入门的几个大障碍的**极简教程**：
+**用 VSCode 写你的第一个 Hello World**，来自：**《[C/C++ 新手避坑指南 系列](https://coffeedrunk.cn/archives/Cpp_Beginner_Guide)》**
 
-1. 《**极简安装配置 C/C++ 编译环境**》：[Github 最新更新](https://github.com/loongba/C_CPP-Learning/blob/main/CBeginnerHelper/C_Cpp_Beginners_Guide.md) | [PDF版下载](https://github.com/loongba/C_CPP-Learning/blob/main/CBeginnerHelper/C_Cpp_Beginners_Guide.pdf) | [知乎专栏](https://zhuanlan.zhihu.com/p/688782325)
-
-2. 《**极简安装配置 VSCode：C/C++扩展、中文乱码**》：[Github 最新更新](https://github.com/loongba/C_CPP-Learning/blob/main/CBeginnerHelper/VSCode_C_Cpp_HelloWorld.md) | [PDF版下载](https://github.com/loongba/C_CPP-Learning/blob/main/CBeginnerHelper/VSCode_C_Cpp_HelloWorld.pdf) | [知乎专栏](https://zhuanlan.zhihu.com/p/688869789)
-
-3. 《**美丽的终端：最新 Terminal 美化指南**》：[Github 最新更新](https://github.com/loongba/C_CPP-Learning/blob/main/CBeginnerHelper/Beautiful_Terminal.md) | [PDF版下载](https://github.com/loongba/C_CPP-Learning/blob/main/CBeginnerHelper/Beautiful_Terminal.pdf) | [知乎专栏](https://zhuanlan.zhihu.com/p/688869789)
-
-4. **方便设置 Path 环境变量的脚本**：在 Path 环境变量中查看、查找、添加、删除——[使用说明](https://github.com/loongba/C_CPP-Learning/blob/main/CBeginnerHelper/Readme.md) | [PDF版下载](https://github.com/loongba/C_CPP-Learning/blob/main/CBeginnerHelper/Readme.pdf)
-
-5. **算法入门练习题**（陆续完善中）：《[陪小学生学习 Python 练习题](https://github.com/xiaohaimiao/Python-Learning)》、《[陪小学生学习 C/C++ 练习题](https://github.com/loongba/C_CPP-Learning)》
+龙爸写给**初学 C/C++** 的朋友们的**新手避坑指南**，扫平入门的几个大障碍的**极简教程**。
 
 原文发布、维护于龙爸**陪孩子学习 `Python`、`C++` 的练习项目**:
 
-- [loongba/C_CPP-Learning](https://github.com/loongba/C_CPP-Learning)，作者：[爱学习的龙爸](https://github.com/loongba)
+- [loongba/Cpp_Beginner_Guide](https://github.com/loongba/Cpp_Beginner_Guide)，作者：[爱学习的龙爸](https://github.com/loongba) | [龙爸个人网站](https://coffeedrunk.cn)
 
 - 欢迎意见、建议和帮助，谢谢 🥰💕❤️
 
@@ -26,7 +18,7 @@
 
 ---
 
-# 极简安装配置 VSCode：C/C++扩展、中文乱码
+# 极简安装配置 VSCode：中文、C/C++扩展、中文乱码
 
 > 本教程不同于其它教程，相对更加简单，也不容易出现意外。
 > 
