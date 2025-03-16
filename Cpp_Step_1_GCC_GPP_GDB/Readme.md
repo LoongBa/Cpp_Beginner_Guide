@@ -4,7 +4,7 @@
 
 + 龙爸写给**初学 C/C++** 的朋友们的**新手避坑指南**，扫平入门的几个大障碍的**极简教程**。
 
-原文发布、维护于龙爸**陪孩子学习 `Python`、`C++` 的练习项目**:
+原文发布、维护于龙爸**陪孩子学习 `Python`、`C++` 、`算法入门` 的练习项目**:
 
 - [龙爸个人网站1](https://coffeedrunk.cn/archives/Cpp_Beginner_Guide)| [Github](https://github.com/LoongBa/Cpp_Beginner_Guide) 国外 | [GitCode](https://gitcode.com/LoongBa/Cpp_Beginner_Guide) 国内 | [Gitee](https://gitee.com/LoongBa/Cpp_Beginner_Guide) 国内 | [龙爸个人网站2](https://loongba.cn/archives/Cpp_Beginner_Guide)
 
@@ -18,28 +18,16 @@
 
 ---
 
-## 为何编写此指南？——全网最简、最新
+## 全网最简、最新
 
 此指南主要目的是用**尽可能极简**的方式，帮助初学者**完成 C/C++ 的基础环境搭建**，<mark> 两步搞定 </mark>。
 
 ——**尤其是小学生小朋友**😘🥰🤗
 
-好多家长朋友很头疼，孩子在学习 `C/C++` 的第一步遇到的各种问题不知道怎么解决，例如：
-
-+ 有的是培训机构给了一个比较**老旧**的安装包，勉勉强强弄了能用，却**隐藏了各种问题**；
-
-+ 有的是按照某个教程非常复杂却**走不通**，要么下载遇到问题，要么注册环境变量遇到问题；
-
-+ 网络上大部分教程【互相借鉴】内容都差不多，不仅很复杂还有大量**过时信息或者错误信息**。
-
 通过此指南，**用尽可能简单的方式**，指导初学者 **<u>两步完成</u> C/C++ 的编译器、调试器的下载，安装、配置和更新**。
 
-> 本教程不同于其它教程，相对更加简单，也不容易出现意外。
-
-> 但因为面向小学生、初中生小朋友，所以详细步骤会比较详细，请根据自身情况适当快进。  
+> 因为面向中小学生朋友，所以详细步骤会比较详细，请根据自身情况适当快进。  
 > 本教程仅针对 `Windows 10/11` ，没有测试 `Windows 7/XP`，也不考虑 `MacOS`、`Linux` 等系统。
-
-现有的几乎所有教程都写的比较复杂，尽量选择较新的学习，因为版本更新后一些配置可能变化了或者不需要了。
 
 <img title="" src="./images/2025-03-16-23-58-05-image.png" alt="" width="640">
 
@@ -49,19 +37,19 @@
 
 **本教程简化之处**：
 
-+ **用 `Scoop` 自动下载、安装** `GNU` 的 `gcc/g++/gdb`，不需要通过类似上面的三个应用或者其它应用；
++ **自动下载、安装** `GNU` 的 `gcc/g++/gdb`
 
-+ **用 `Scoop` 自动设置系统环境变量**，**省去了复杂的设置操作**；
++ **自动设置系统环境变量**，**省去了复杂的设置操作**；
 
 + **后续可以用 `Scoop` 随时更新到最新版本**。
 
-+ 未来还会用到 `Scoop` ，方便获取其它开发工具。
++ **未来**还会用到 `Scoop` ，方便获取其它开发工具。
 
-虽然还有一种更简单的安装方式：先安装第三方开发的 VSCode 扩展，用它来完成配置。
+虽然还有更简单的安装方式：先安装第三方开发的 VSCode 扩展，用它来完成配置。
 
 ——**龙爸不推荐**，因为本方法虽然简化，但**知其所以然**。
 
-——本文的方法虽简单，但**没有跳过、遗漏**应该掌握的基本操作，只纠正了错误、采用了不同的方法。
+——本文的方法虽简单，但**没有跳过、遗漏**应该掌握的基本操作。
 
 ---
 
@@ -77,20 +65,22 @@
 
 左边是 Win11， 右边是 Win10。
 
-### 1.2. 在线安装 Scoop
+### 1.2. 一行命令在线安装 Scoop
 
 随后在打开的`终端（命令行）界面`，复制粘贴下面几行命令并按回车（ `#` 后面是注释）：
 
-> ```powershell
-> # 设置 Powershell 的用户策略，如果提示确认请选择 'Y'
-> Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
-> # 这里用国内镜像代替了官方的安装地址
-> iwr -useb https://gitee.com/glsnames/scoop-installer/raw/master/bin/install.ps1 | iex
-> # 安装 git
-> scoop install git
-> # 更新一下 scoop 自己的脚本和数据，执行后稍微等一等就好
-> scoop update
-> ```
+```powershell
+# 设置 Powershell 的用户策略，如果提示确认请选择 'Y'
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+# 这里用国内镜像代替了官方的安装地址
+iwr -useb https://gitee.com/glsnames/scoop-installer/raw/master/bin/install.ps1 | iex
+# 安装 git
+scoop install git
+# 更新一下 scoop 自己的脚本和数据，执行后稍微等一等就好
+scoop update
+```
+
+> 除了注释之外，前面两行安装 `scoop`，后面两行采用 `scoop` 安装 `git` 并更新。
 
 **可能**会看到类似的提示：
 
@@ -123,7 +113,7 @@
 
 **※※※ 按照本教程的方式，不需要此步 ※※※**
 
-`Scoop` 默认情况下连接到 [`Github.com`](https://Github.com) 来获取相应的更新数据等等，因为国内访问 [`Github.com`](https://Github.com) 不稳定，切换为国内镜像会比较方便一些。
+`Scoop` 默认情况下连接到 `Github` 来获取相应的更新数据等等，因为国内访问 `Github` 不稳定，切换为国内镜像会比较方便一些。
 
 **——仅当：你之前 用官方的方式安装过** `Scoop`，可以用下面命令切换为国内镜像：
 
@@ -137,7 +127,7 @@ git remote set-url origin https://gitee.com/scoop-bucket/main.git
 
 > 感谢 Scoop 团队，感谢国内镜像提供者👍❤️💕
 
-后面会推荐访问 `Github.com` 的工具 `FastGithub`，虽然**访问速度不快**但至少**能访问**。
+后面会推荐访问 `Github` 的工具 `FastGithub`，虽然**访问速度不快**但至少**能访问**。
 
 --- 
 
