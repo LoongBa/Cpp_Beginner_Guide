@@ -10,19 +10,19 @@
 
 本系列包含<mark>扫平入门的几个大障碍</mark>的**极简教程**：
 
-1. **安装 C/C++ 编译环境**：**《[C/C++ 运行环境安装配置指南——初学者极简版](/loongba/Cpp_Beginner_Guide/tree/main/Cpp_Step_1_GCC_GPP_GDB)》**
+1. **安装 C/C++ 编译环境**：**《[C/C++ 运行环境安装配置指南——初学者极简版](tree/main/Cpp_Step_1_GCC_GPP_GDB)》**
    
    + 很简单两步操作搞定——所有教程都用古老的方式，该扔进垃圾堆了。
 
-2. **用 VSCode 写你的第一个 Hello World**：**《[极简安装配置 VSCode：中文、C/C++扩展、中文乱码](/loongba/Cpp_Beginner_Guide/tree/main/Cpp_Step_2_VSCode_HelloWorld)》**
+2. **用 VSCode 写你的第一个 Hello World**：**《[极简安装配置 VSCode：中文、C/C++扩展、中文乱码](tree/main/Cpp_Step_2_VSCode_HelloWorld)》**
    
    + 配置 VSCode 最麻烦的 launch.json 和 task.json，用龙爸的方法很简单。
 
-3. **方便[设置 Path 环境变量](/loongba/Cpp_Beginner_Guide/tree/main/SetEnvPath)的脚本**：在 Path 环境变量中查看、查找、添加、删除
+3. **方便[设置 Path 环境变量](tree/main/SetEnvPath)的脚本**：在 Path 环境变量中查看、查找、添加、删除
    
    + 一个命令行小工具，不用在各个界面间一步步操作。
 
-4. **美化终端：《[配置美丽而强大的终端](/loongba/Cpp_Beginner_Guide/tree/main/Beautiful_Terminal)》**
+4. **美化终端：《[配置美丽而强大的终端](tree/main/Beautiful_Terminal)》**
    
    + 目前各种 Oh-My-Posh 的配置教程也是麻烦多多，坑多多，一样极简化。
    
