@@ -2,11 +2,11 @@
 
 如何 **配置美丽而强大的终端**，来自：**《[C/C++ 新手避坑指南 系列](https://coffeedrunk.cn/archives/Cpp_Beginner_Guide)》**
 
-龙爸写给**初学 C/C++** 的朋友们的**新手避坑指南**，扫平入门的几个大障碍的**极简教程**。
+- 龙爸写给**初学 C/C++** 的朋友们的**新手避坑指南**，扫平入门的几个大障碍的**极简教程**。
 
-原文发布、维护于龙爸**陪孩子学习 `Python`、`C++` 的练习项目**:
+原文发布、维护于龙爸**陪孩子学习 `Python`、`C++` 、`算法入门` 的练习项目**:
 
-- [loongba/Cpp_Beginner_Guide](https://github.com/loongba/Cpp_Beginner_Guide)，作者：[爱学习的龙爸](https://github.com/loongba) | [龙爸个人网站](https://coffeedrunk.cn)
+- [龙爸个人网站1](https://coffeedrunk.cn/archives/Cpp_Beginner_Guide)| [Github](https://github.com/LoongBa/Cpp_Beginner_Guide) 国外 | [GitCode](https://gitcode.com/LoongBa/Cpp_Beginner_Guide) 国内 | [Gitee](https://gitee.com/LoongBa/Cpp_Beginner_Guide) 国内 | [龙爸个人网站2](https://loongba.cn/archives/Cpp_Beginner_Guide)
 
 - 欢迎意见、建议和帮助，谢谢 🥰💕❤️
 
