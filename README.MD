@@ -10,21 +10,29 @@
 
 本系列包含<mark>扫平入门的几个大障碍</mark>的**极简教程**：
 
-1. **安装 C/C++ 编译环境**：**《[C/C++ 运行环境安装配置指南——初学者极简版](Cpp_Step_1_GCC_GPP_GDB)》**
+1. **安装 C/C++ 编译环境**：**《[极简安装配置 Windows C/C++ 环境指南](Cpp_Step_1_GCC_GPP_GDB)》**
    
-   + 很简单两步操作搞定——所有教程都用古老的方式，该扔进垃圾堆了。
+   + 很简单两步操作搞定——几乎所有教程都用古老的方式，该扔进垃圾堆了。
 
-2. **用 VSCode 写你的第一个 Hello World**：**《[极简安装配置 VSCode：中文、C/C++扩展、中文乱码](Cpp_Step_2_VSCode_HelloWorld)》**
+2. **用 VSCode 写你的第一个 Hello World**：**《[极简配置 VSCode：中文语言包、C/C++扩展、launch.json、task.json](Cpp_Step_2_VSCode_HelloWorld)》**
    
-   + 配置 VSCode 最麻烦的 launch.json 和 task.json，用龙爸的方法很简单。
+   + 配置 VSCode 最麻烦的 launch.json 和 task.json，用龙爸的方法最简单。
 
-3. **方便[设置 Path 环境变量](SetEnvPath)的脚本**：在 Path 环境变量中查看、查找、添加、删除
+3. **乱码问题**是软件开发经常遇到的问题：《**[解决 C/C++ 常见问题：中文输出乱码](Cpp_Step_2_VSCode_HelloWorld/C_CPP_Chinese_Code.md)**》
+   
+   + 弄明白原理，见招拆招，不再是难题。
+
+4. **详解 launch.json 和 task.json**：《**[深入配置 VSCode 运行和编译任务 launch.json、task.json](Cpp_Step_2_VSCode_HelloWorld/VSCode_Launch_Task.md)**》
+   
+   + 告别每次复制粘贴，理解了关键点，手到拈来。
+
+5. **方便[设置 Path 环境变量](SetEnvPath)的脚本**：在 Path 环境变量中查看、查找、添加、删除
    
    + 一个命令行小工具，不用在各个界面间一步步操作。
 
-4. **美化终端：《[配置美丽而强大的终端](Beautiful_Terminal)》**
+6. **美化终端：《[配置美丽而强大的终端](Beautiful_Terminal)》**
    
-   + 目前各种 Oh-My-Posh 的配置教程也是麻烦多多，坑多多，一样极简化。
+   + 目前各种 Oh-My-Posh 的配置教程也是麻烦多多，坑多多，本文一样极简化。
    
    + 后续补 StarShip 的配置（已经很简单，所以暂时没有动手的必要）
 
