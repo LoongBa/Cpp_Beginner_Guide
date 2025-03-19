@@ -1,6 +1,6 @@
 # 《极简安装配置 Windows C/C++ 环境指南》
 
-> **安装 C/C++ 编译环境，很简单两步操作搞定**
+> **安装配置 C/C++ 编译器 GCC，很简单两步操作搞定**
 > 
 > ——几乎所有教程都用古老的方式，**该扔进垃圾堆了**。
 
@@ -133,9 +133,9 @@ git remote set-url origin https://gitee.com/scoop-bucket/main.git
 
 --- 
 
-## 2. 一键自动下载、安装、设置 gcc, gdb
+## 2. 一键自动下载、安装、设置 GCC, gdb
 
-随后，用 `Scoop` 帮助我们自动下载安装 `GNU` 的 `C/C++ 编译器和调试器`：`gcc`, `gdb`——`g++` 已经包含在 `gcc` 里。
+随后，用 `Scoop` 帮助我们自动下载安装 `GNU` 的 `C/C++ 编译器套件和调试器`：`GCC套件`, `gdb`——`g++` 已经包含在 `GCC套件` 里。
 
 在 `终端（命令行）界面` 粘贴或输入下面命令：
 
@@ -148,10 +148,10 @@ scoop install gcc gdb
 
 这个过程中，`Scoop` 会自动安装所需的 `7zip`，不需要设置环境变量等等，因为 `Scoop` 已经**自动完成**了。
 
-> `aria2` 是一个开源下载工具，可以跳过 `aria2`
-> 
-> 上面的命令，也可以合并在一行：
-> 
+`7zip`，不需要设置环境变量等等，因为 `Scoop` 已经**自动完成**了。
+
+> `aria2` 是一个开源下载工具，主要是为了方便下载和提高速度，可以跳过不装  
+> 也可以合并在一行，一次安装三个应用：  
 > scoop install aria2 gcc gdb
 
 ---
@@ -203,7 +203,7 @@ scoop update git gcc gdb
 
 如果这时候总是提示网络问题，可以用开源、免费的 `FastGithub` 工具。
 
-因为**<u><span>项目原作者已经删库</span></u>**，下面是众多备份之一：托管在国外 [`Github.com`](https://Github.com)
+因为**项目原作者已经删库**，下面是众多备份之一：托管在国外 [`Github.com`](https://Github.com)
 
 > 源代码项目地址: [<u><span>GitHub - WangGithubUser/FastGitHub: GitHub加速神器，解决GitHub打不开、用户头像无法加载、Releases无法上传下载、git-clone、git-pull、git-push失败等问题</span></u>](https://github.com/WangGithubUser/FastGitHub)  
 > 最新 `2.15` 版的压缩包国外下载：[<u><span>fastgithub_win-x64.zip</span></u>](https://github.com/WangGithubUser/FastGitHub/releases/download/v2.1.5/fastgithub_win-x64.zip)
@@ -225,10 +225,12 @@ scoop update git gcc gdb
 
 <img title="" src="./images/2024-03-19-21-09-22-image.png" alt="" width="493">
 
-很多文章中也会推荐其它类似 `FastGithub` 的工具，如 `Steam++` 等，相比之下 `FastGithub` 属于<mark> 最简单、功能单一 </mark>的一个。
-——推测因为与 `Steam++` 等利益相关（有广告），`FastGithub` 原作者删除了原来在 `Github` 上的项目，
+很多文章中也会推荐其它类似 `FastGithub` 的工具，如 `Steam++`（有广告）等，相比之下 `FastGithub` 属于<mark> 最简单、功能单一 </mark>的一个。
+——推测因为与 `Steam++` 等利益相关，`FastGithub` 原作者删除了原来在 `Github` 上的项目，
 
-但幸好有喜欢这个工具的其它朋友备份并继续维护着 `FastGithub`，所以**上面分享的并不是原作者的项目地址，而是备份项目地址**。并且在原项目基础上略做了改进和修改了 bug。
+但幸好有喜欢这个工具的其它朋友备份并继续维护着 `FastGithub`，所以**上面分享的并不是原作者的项目地址，而是备份项目地址**。
+
+>  并且在原项目基础上略做了改进和修改了 bug。
 
 **感谢原作者，也感谢这些热心的备份者和维护者（还有很多类似备份）**，**谢谢你们** 👍❤️💕
 
